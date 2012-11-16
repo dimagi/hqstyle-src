@@ -152,6 +152,9 @@
         clear:right;
         float:left;
         background: none;
+        overflow-x: auto;
+        width: 100%;
+        height: 100%;
     }
 
     #fd-data-tree{
@@ -341,7 +344,8 @@
     }
 
     #fd-question-tree-container {
-        overflow-x:auto;
+        width: 300px;
+        height: 100%;
     }
 
     #fd-data-tree-head {
@@ -373,8 +377,11 @@
     }
 
     #fd-ui-container {
-
         width: 100%;
+    }
+
+    #fd-question-tree-container, #fd-question-properties {
+        margin: 5px; 
     }
 
     #fd-min-max-button {
