@@ -7792,7 +7792,7 @@ a.badge:hover {
   border-radius: 0 4px 4px 0;
 }
 .combobox-container select {
-  display: inline-block;
+  display: none;
   width: 0;
   height: 0;
   border: 0;
@@ -7857,6 +7857,13 @@ a.badge:hover {
 }
 .control-group.success .combobox-container .caret {
   border-top-color: #468847;
+}
+.form-inline .combobox-container {
+  display: inline-block;
+}
+.form-inline .combobox-container > input {
+  display: inline-block;
+  vertical-align: middle;
 }
 .pull-right {
   float: right;
