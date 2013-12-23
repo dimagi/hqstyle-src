@@ -101,7 +101,7 @@ class Command(BaseCommand):
 
     def copy_font_awesome(self):
         print "\nCopying fonts for Font Awesome"
-        source_folder = "%s/font" % self.font_awesome_src
+        source_folder = "%s/fonts" % self.font_awesome_src
         dest_folder = "%s/css/font" % self.destination
         self.copy_all_files(source_folder, dest_folder)
 
